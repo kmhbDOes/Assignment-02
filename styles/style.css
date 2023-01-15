@@ -1,0 +1,250 @@
+/* Font imported */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/* Common section */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1600px;
+}
+
+/* header section styling */
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.sitetitle {
+    width: 302px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 90px 50px 90px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* banner styling */
+
+.banner {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bannertitle {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.bannerdescription {
+    margin-top: 15px;
+    color: #727272;
+}
+
+.btn1 {
+    margin-top: 22px;
+    width: 120px;
+    height: 46px;
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Main content styling */
+
+/* featured section one */
+
+.featured1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.firstgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 85px;
+}
+
+.firstgrid {
+    width: 320px;
+    height: 310px;
+    grid-gap: 30px;
+}
+
+.featured1details {
+    margin-top: 370px;
+    padding-left: 50px;
+}
+
+.featured1title {
+    font-style: normal;
+    font-size: 25px;
+}
+
+.sp1 {
+    color: #727272;
+    font-weight: 500;
+}
+
+.sp2 {
+    font-weight: 600;
+    font-style: bold;
+    color: #131313;
+}
+
+.sp3 {
+    color: #FF900E;
+}
+
+.featured1description {
+    font-size: 12px;
+    word-wrap: break-word;
+    color: #727272;
+}
+
+/* featured section two */
+
+.featured2 {
+    margin-top: 350px;
+}
+
+.featured2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.featured2title {
+    border-left: 6px solid #FF900E;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* .featured2{
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+} */
+
+.featured2texts {
+    margin-left: 100px;
+}
+
+.featured2texts {
+    margin-top: 180px;
+}
+
+.featured2details {
+    width: 300px;
+    color: #727272;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.featured2info {
+    color: #727272;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.featured2description {
+    width: 450px;
+    height: 120px;
+    border: 2px solid;
+    border-radius: 7px;
+    border: 3px solid;
+    border-style: none;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.featured2photo {
+    padding-right: 250px;
+}
+
+.btn2 {
+    width: 150px;
+    height: 70px;
+    background: #FF900E;
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 180px;
+    position: absolute;
+    top: 949px;
+    left: 350px;
+}
+
+/* Some Facts Section */
+
+.somefacts {
+    margin-top: 130px;
+
+}
+
+.statbox {
+    width: 160px;
+    height: 160px;
+    border: 18px ridge #FF900E;
+    border-width: thin;
+    margin: 20px;
+}
+
+.stat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.stat img{
+    margin-top: 15px;
+}
+
+
+/* Responsive Design */
+
+/* For mobile device */
+
+@media screen and (max-width: 556px) {
+
+    body,
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+    }
+}
