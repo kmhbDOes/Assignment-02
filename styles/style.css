@@ -263,22 +263,19 @@ nav li {
 /* extra section */
 
 .extrasec{
-   /* display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   justify-content: space-between;
-   font-weight: 500; */
    position: absolute;
 }
 .slider{
     width: 800px;
-    height: 400px;
+    height: 350px;
     background: url("../images/1.jpg");
     margin: 100px auto;
-    animation: slide 20s infinite
+    animation: slide 20s infinite;
+    border-radius: 8px;
     }
     
 .extrasectext{
-        bottom: 350px;
+        bottom: 280px;
         text-align: center;
         position: relative;
         color: #f9f5f0;
@@ -330,11 +327,11 @@ nav li {
     height: 80px;
     width: 800px;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .footertext {
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 /* Responsive Design */
@@ -343,10 +340,19 @@ nav li {
 
 @media screen and (max-width: 556px) {
 
-    body,
+    /* body,
     html {
         width: 100vw;
         overflow-x: hidden;
         padding: 0.8em 0;
+    } */
+     
+    .footerdiv{
+        margin: 0px;
+        padding-left: 20px;
+        width: 40%;
+    }
+    .hide{
+        display: none;
     }
 }
